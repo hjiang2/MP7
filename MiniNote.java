@@ -282,9 +282,8 @@ public class MiniNote extends JFrame implements ActionListener  {
   }
 
  /**
-  *  substitude方法
+  *  substitude
   *
-  *  实现替换功能
   *
   */
  public void substitude() {
