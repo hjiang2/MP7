@@ -1,5 +1,3 @@
-//hi lmao????
-
 import java.awt.BorderLayout;  
 import java.awt.Color;  
 import java.awt.FlowLayout;  
@@ -166,7 +164,7 @@ public class CalendarBoard extends JFrame{
     }  
       
     public String toString(){  
-        String s=calendar.get(Calendar.YEAR)+"ï¿½ï¿½"+(calendar.get(Calendar.MONTH)+1)+"ï¿½ï¿½\n";  
+        String s=calendar.get(Calendar.YEAR)+" Year "+(calendar.get(Calendar.MONTH)+1)+" Month\n";  
         for(String i:week)  
                 s+="  "+i;  
         s+="\n";  
@@ -211,7 +209,7 @@ public class CalendarBoard extends JFrame{
             }  
             else j++;  
         }  
-        monthLable.setText("Calendarï¿½ï¿½"+calendar.get(Calendar.YEAR)+"Year"+(calendar.get(Calendar.MONTH)+1)+"Month");  
+        monthLable.setText("Calendar£º"+calendar.get(Calendar.YEAR)+"Year"+(calendar.get(Calendar.MONTH)+1)+"Month");  
     }  
       
     public void calendarAdd(int delta)  

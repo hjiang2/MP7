@@ -23,10 +23,10 @@ public class CalendarPad {
 	int year;
 	int month;
       public void input(){
-    	  System.out.println("Input Year£º");
+    	  System.out.println("Input Year:");
     	  Scanner sc=new Scanner(System.in);
     	  year = sc.nextInt();
-    	  System.out.println("Input Month(1-12)£º");
+    	  System.out.println("Input Month(1-12):");
     	  month = sc.nextInt();
     	  if(month >= 1 && month <= 12) {
     		  calendar1(month);
